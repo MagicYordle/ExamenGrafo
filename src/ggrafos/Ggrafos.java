@@ -29,68 +29,70 @@ public class Ggrafos {
         //---------------DOS---------------
         grafo2.nuevoNodo(1);
         grafo2.nuevoNodo(2);
-        grafo2.nuevoNodo(4);
         grafo2.nuevoNodo(3);
-        origenDestino2(1, 1);
-        origenDestino2(1, 4);
+        grafo2.nuevoNodo(4);
+        origenDestino2(1, 3);
         origenDestino2(1, 2);
+        origenDestino2(1, 4);
         origenDestino2(2, 1);
         origenDestino2(2, 3);
-        origenDestino2(2, 4);
+        origenDestino2(3, 1);
         origenDestino2(3, 2);
+        origenDestino2(3, 4);
         origenDestino2(4, 1);
-        origenDestino2(4, 2);
+        origenDestino2(4, 3);
+        origenDestino2(4, 4);
         System.out.println(grafo2.mostrar());
         System.out.println("---------------TRES---------------");
         
        //---------------TRES---------------
         grafo3.nuevoNodo(1);
         grafo3.nuevoNodo(2);
-        grafo3.nuevoNodo(4);
         grafo3.nuevoNodo(3);
-        origenDestino3(1, 1);
-        origenDestino3(1, 4);
+        grafo3.nuevoNodo(4);
         origenDestino3(1, 2);
-        origenDestino3(2, 1);
+        origenDestino3(1, 4);
         origenDestino3(2, 3);
-        origenDestino3(2, 4);
+        origenDestino3(2, 1);
+        origenDestino3(3, 4);
         origenDestino3(3, 2);
         origenDestino3(4, 1);
-        origenDestino3(4, 2);
+        origenDestino3(4, 3);
+       
         System.out.println(grafo3.mostrar());
         System.out.println("---------------CUATRO---------------");
         
          //---------------CUATRO---------------
         grafo4.nuevoNodo(1);
         grafo4.nuevoNodo(2);
-        grafo4.nuevoNodo(4);
         grafo4.nuevoNodo(3);
-        origenDestino4(1, 1);
-        origenDestino4(1, 4);
+        grafo4.nuevoNodo(4);
         origenDestino4(1, 2);
+        origenDestino4(1, 3);
+        origenDestino4(1, 4);
         origenDestino4(2, 1);
         origenDestino4(2, 3);
         origenDestino4(2, 4);
         origenDestino4(3, 2);
+        origenDestino4(3, 1);
+        origenDestino4(3, 4);
         origenDestino4(4, 1);
         origenDestino4(4, 2);
+        origenDestino4(4, 3);
         System.out.println(grafo4.mostrar());
         System.out.println("---------------CINCO---------------");
         
        //---------------CINCO---------------
         grafo5.nuevoNodo(1);
         grafo5.nuevoNodo(2);
-        grafo5.nuevoNodo(4);
         grafo5.nuevoNodo(3);
-        origenDestino5(1, 1);
+        grafo5.nuevoNodo(4);
+        origenDestino5(1, 3);
         origenDestino5(1, 4);
-        origenDestino5(1, 2);
-        origenDestino5(2, 1);
         origenDestino5(2, 3);
-        origenDestino5(2, 4);
+        origenDestino5(3, 1);
         origenDestino5(3, 2);
         origenDestino5(4, 1);
-        origenDestino5(4, 2);
         
         System.out.println(grafo5.mostrar());
     }
